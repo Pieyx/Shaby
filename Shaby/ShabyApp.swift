@@ -11,7 +11,7 @@ import SwiftUI
 struct ShabyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Recipe()
         }
     }
 }
