@@ -14,12 +14,12 @@ struct ContentView: View {
                 .tabItem { Image(systemName: "gear")
                     Text("Setings")
                 }
-           ZoomableMapView()
+         ZoomableMapView2()
                 .tabItem { Image(systemName: "map")
                     Text("map")
                 }
             NavigationStack{
-                _myrecepis()
+                MyReceipe()
             }
                 .tabItem { Image(systemName: "rectangle.stack")
                     Text("My Reseips")
