@@ -12,6 +12,10 @@
 		1445C6882B5FAE97000E0068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445C6872B5FAE97000E0068 /* Assets.xcassets */; };
 		1445C68C2B5FAE97000E0068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445C68B2B5FAE97000E0068 /* Preview Assets.xcassets */; };
 		1445C6932B624223000E0068 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445C6922B624222000E0068 /* Recipe.swift */; };
+		1E90173B2B6B8F5A009E770D /* InteractiveMap in Frameworks */ = {isa = PBXBuildFile; productRef = 1E90173A2B6B8F5A009E770D /* InteractiveMap */; };
+		1E90173D2B6B8F88009E770D /* country.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1E90173C2B6B8F88009E770D /* country.svg */; };
+		1E90173F2B6B908A009E770D /* ZoomableMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90173E2B6B908A009E770D /* ZoomableMapView.swift */; };
+		1E9017412B6B9097009E770D /*  myrecepis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9017402B6B9097009E770D /*  myrecepis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,9 @@
 		1445C6892B5FAE97000E0068 /* Shaby.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shaby.entitlements; sourceTree = "<group>"; };
 		1445C68B2B5FAE97000E0068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1445C6922B624222000E0068 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		1E90173C2B6B8F88009E770D /* country.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = country.svg; path = ../../../Downloads/country.svg; sourceTree = "<group>"; };
+		1E90173E2B6B908A009E770D /* ZoomableMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomableMapView.swift; path = ../../../Desktop/experence/experence/ZoomableMapView.swift; sourceTree = "<group>"; };
+		1E9017402B6B9097009E770D /*  myrecepis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = " myrecepis.swift"; path = "../../../Desktop/experence/experence/ myrecepis.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E90173B2B6B8F5A009E770D /* InteractiveMap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				1445C6832B5FAE96000E0068 /* ShabyApp.swift */,
+				1E90173C2B6B8F88009E770D /* country.svg */,
 				1445C6852B5FAE96000E0068 /* ContentView.swift */,
+				1E90173E2B6B908A009E770D /* ZoomableMapView.swift */,
+				1E9017402B6B9097009E770D /*  myrecepis.swift */,
 				1445C6872B5FAE97000E0068 /* Assets.xcassets */,
 				1445C6892B5FAE97000E0068 /* Shaby.entitlements */,
 				1445C68A2B5FAE97000E0068 /* Preview Content */,
@@ -88,6 +99,9 @@
 			dependencies = (
 			);
 			name = Shaby;
+			packageProductDependencies = (
+				1E90173A2B6B8F5A009E770D /* InteractiveMap */,
+			);
 			productName = Shaby;
 			productReference = 1445C6802B5FAE96000E0068 /* Shaby.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 1445C6772B5FAE96000E0068;
+			packageReferences = (
+				1E9017392B6B8F5A009E770D /* XCRemoteSwiftPackageReference "InteractiveMap" */,
+			);
 			productRefGroup = 1445C6812B5FAE96000E0068 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E90173D2B6B8F88009E770D /* country.svg in Resources */,
 				1445C68C2B5FAE97000E0068 /* Preview Assets.xcassets in Resources */,
 				1445C6882B5FAE97000E0068 /* Assets.xcassets in Resources */,
 			);
@@ -144,6 +162,8 @@
 			files = (
 				1445C6932B624223000E0068 /* Recipe.swift in Sources */,
 				1445C6862B5FAE96000E0068 /* ContentView.swift in Sources */,
+				1E90173F2B6B908A009E770D /* ZoomableMapView.swift in Sources */,
+				1E9017412B6B9097009E770D /*  myrecepis.swift in Sources */,
 				1445C6842B5FAE96000E0068 /* ShabyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E9017392B6B8F5A009E770D /* XCRemoteSwiftPackageReference "InteractiveMap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GrandSir/InteractiveMap";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E90173A2B6B8F5A009E770D /* InteractiveMap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E9017392B6B8F5A009E770D /* XCRemoteSwiftPackageReference "InteractiveMap" */;
+			productName = InteractiveMap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1445C6782B5FAE96000E0068 /* Project object */;
 }
