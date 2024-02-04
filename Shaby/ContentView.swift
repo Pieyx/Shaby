@@ -10,13 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            Text("Stetings")
-                .tabItem { Image(systemName: "gear")
-                    Text("Setings")
-                }
+            
          ZoomableMapView2()
                 .tabItem { Image(systemName: "map")
                     Text("map")
+                }
+            Text("Stetings")
+                .tabItem { Image(systemName: "gear")
+                    Text("Setings")
                 }
             NavigationStack{
                 MyReceipe()

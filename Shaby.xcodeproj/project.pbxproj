@@ -11,11 +11,15 @@
 		1445C6862B5FAE96000E0068 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445C6852B5FAE96000E0068 /* ContentView.swift */; };
 		1445C6882B5FAE97000E0068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445C6872B5FAE97000E0068 /* Assets.xcassets */; };
 		1445C68C2B5FAE97000E0068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445C68B2B5FAE97000E0068 /* Preview Assets.xcassets */; };
-		1445C6932B624223000E0068 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445C6922B624222000E0068 /* Recipe.swift */; };
+		1445C6932B624223000E0068 /* Recipe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445C6922B624222000E0068 /* Recipe1.swift */; };
 		1E90173B2B6B8F5A009E770D /* InteractiveMap in Frameworks */ = {isa = PBXBuildFile; productRef = 1E90173A2B6B8F5A009E770D /* InteractiveMap */; };
-		1E90173D2B6B8F88009E770D /* country.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1E90173C2B6B8F88009E770D /* country.svg */; };
 		1E9017432B6B9629009E770D /* MyReceipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9017422B6B9629009E770D /* MyReceipe.swift */; };
 		1E9017472B6B971B009E770D /* ZoomableMapView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9017462B6B971B009E770D /* ZoomableMapView2.swift */; };
+		35BB46EC2B6EE5F70053D054 /* country.svg in Resources */ = {isa = PBXBuildFile; fileRef = 35BB46EB2B6EE5F70053D054 /* country.svg */; };
+		35BB46EE2B6EE8E70053D054 /* Recipe_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */; };
+		35BB46F02B6EE9170053D054 /* Region_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46EF2B6EE9170053D054 /* Region_m.swift */; };
+		35BB46F22B6EE92B0053D054 /* Ingredients_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46F12B6EE92B0053D054 /* Ingredients_m.swift */; };
+		35BB46F42B6F81B90053D054 /* shaby2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46F32B6F81B90053D054 /* shaby2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +29,14 @@
 		1445C6872B5FAE97000E0068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1445C6892B5FAE97000E0068 /* Shaby.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shaby.entitlements; sourceTree = "<group>"; };
 		1445C68B2B5FAE97000E0068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1445C6922B624222000E0068 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		1E90173C2B6B8F88009E770D /* country.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = country.svg; path = ../../../Downloads/country.svg; sourceTree = "<group>"; };
+		1445C6922B624222000E0068 /* Recipe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe1.swift; sourceTree = "<group>"; };
 		1E9017422B6B9629009E770D /* MyReceipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceipe.swift; sourceTree = "<group>"; };
 		1E9017462B6B971B009E770D /* ZoomableMapView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableMapView2.swift; sourceTree = "<group>"; };
+		35BB46EB2B6EE5F70053D054 /* country.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.svg; sourceTree = "<group>"; };
+		35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_m.swift; sourceTree = "<group>"; };
+		35BB46EF2B6EE9170053D054 /* Region_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region_m.swift; sourceTree = "<group>"; };
+		35BB46F12B6EE92B0053D054 /* Ingredients_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients_m.swift; sourceTree = "<group>"; };
+		35BB46F32B6F81B90053D054 /* shaby2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shaby2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +73,16 @@
 				1445C6832B5FAE96000E0068 /* ShabyApp.swift */,
 				1E9017462B6B971B009E770D /* ZoomableMapView2.swift */,
 				1E9017422B6B9629009E770D /* MyReceipe.swift */,
-				1E90173C2B6B8F88009E770D /* country.svg */,
+				35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */,
+				35BB46F32B6F81B90053D054 /* shaby2.swift */,
+				35BB46EF2B6EE9170053D054 /* Region_m.swift */,
+				35BB46F12B6EE92B0053D054 /* Ingredients_m.swift */,
+				35BB46EB2B6EE5F70053D054 /* country.svg */,
 				1445C6852B5FAE96000E0068 /* ContentView.swift */,
 				1445C6872B5FAE97000E0068 /* Assets.xcassets */,
 				1445C6892B5FAE97000E0068 /* Shaby.entitlements */,
 				1445C68A2B5FAE97000E0068 /* Preview Content */,
-				1445C6922B624222000E0068 /* Recipe.swift */,
+				1445C6922B624222000E0068 /* Recipe1.swift */,
 			);
 			path = Shaby;
 			sourceTree = "<group>";
@@ -147,7 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E90173D2B6B8F88009E770D /* country.svg in Resources */,
+				35BB46EC2B6EE5F70053D054 /* country.svg in Resources */,
 				1445C68C2B5FAE97000E0068 /* Preview Assets.xcassets in Resources */,
 				1445C6882B5FAE97000E0068 /* Assets.xcassets in Resources */,
 			);
@@ -160,10 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1445C6932B624223000E0068 /* Recipe.swift in Sources */,
+				1445C6932B624223000E0068 /* Recipe1.swift in Sources */,
+				35BB46F02B6EE9170053D054 /* Region_m.swift in Sources */,
 				1445C6862B5FAE96000E0068 /* ContentView.swift in Sources */,
 				1E9017472B6B971B009E770D /* ZoomableMapView2.swift in Sources */,
+				35BB46EE2B6EE8E70053D054 /* Recipe_m.swift in Sources */,
 				1445C6842B5FAE96000E0068 /* ShabyApp.swift in Sources */,
+				35BB46F42B6F81B90053D054 /* shaby2.swift in Sources */,
+				35BB46F22B6EE92B0053D054 /* Ingredients_m.swift in Sources */,
 				1E9017432B6B9629009E770D /* MyReceipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shaby/Preview Content\"";
-				DEVELOPMENT_TEAM = RP4L94684F;
+				DEVELOPMENT_TEAM = Y45AGL4RGX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +329,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apple.Shaby;
+				PRODUCT_BUNDLE_IDENTIFIER = Zebdia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -332,7 +348,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shaby/Preview Content\"";
-				DEVELOPMENT_TEAM = RP4L94684F;
+				DEVELOPMENT_TEAM = Y45AGL4RGX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -351,7 +367,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apple.Shaby;
+				PRODUCT_BUNDLE_IDENTIFIER = Zebdia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

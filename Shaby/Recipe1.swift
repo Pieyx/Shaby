@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Recipe: View {
+struct Recipe1: View {
     @State var serving: Int = 5
     var body: some View {
         ScrollView{
@@ -93,5 +93,5 @@ struct Recipe: View {
 }
 
 #Preview {
-    Recipe()
+    Recipe1()
 }

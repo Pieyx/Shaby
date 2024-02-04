@@ -7,6 +7,9 @@
 
 import SwiftUI
 import InteractiveMap
+import CloudKit
+
+
 
 struct ZoomableMapView2: View {
     @State private var searchItem = ""
@@ -19,7 +22,7 @@ struct ZoomableMapView2: View {
         ZStack {
             
             Color.page.ignoresSafeArea()
-            TextField("Search city",text: $searchItem)
+            TextField("Looking for a Recipe?",text: $searchItem)
                 .padding(15)
                 .background(Color(.white))
                 .cornerRadius(20)
@@ -42,7 +45,7 @@ struct ZoomableMapView2: View {
                                     .init(
                                         strokeWidth: 0.5,
                                         strokeColor: .white,
-                                        background: Color(.brown)
+                                        background: Color(.braown)
                                     )
                                 )
                                 .onTapGesture {
@@ -65,7 +68,7 @@ struct ZoomableMapView2: View {
                         )
                         .animation(.easeInOut(duration: 0.2))
                     } .sheet(isPresented: $isSheetPresented) {
-                        mydish(selectedRegion: clickedPath.name)
+                        mydish(name: clickedPath.name)
                             .presentationDetents([.medium , .large])
                             .presentationDragIndicator(.hidden)
                     }
@@ -75,7 +78,7 @@ struct ZoomableMapView2: View {
     }
 }
 struct mydish: View {
-    let selectedRegion: String
+    let name: String
     
     var body: some View {
         ZStack {
@@ -87,7 +90,7 @@ struct mydish: View {
                     .padding(8)
                     .foregroundColor(.braown)
                 
-                Text("\(selectedRegion) region")
+                Text("\(name)")
                     
                     .foregroundColor(.black)
                     .bold()
