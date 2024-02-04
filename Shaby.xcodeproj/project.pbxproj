@@ -19,7 +19,6 @@
 		35BB46EE2B6EE8E70053D054 /* Recipe_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */; };
 		35BB46F02B6EE9170053D054 /* Region_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46EF2B6EE9170053D054 /* Region_m.swift */; };
 		35BB46F22B6EE92B0053D054 /* Ingredients_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46F12B6EE92B0053D054 /* Ingredients_m.swift */; };
-		35BB46F42B6F81B90053D054 /* shaby2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46F32B6F81B90053D054 /* shaby2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 		35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_m.swift; sourceTree = "<group>"; };
 		35BB46EF2B6EE9170053D054 /* Region_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region_m.swift; sourceTree = "<group>"; };
 		35BB46F12B6EE92B0053D054 /* Ingredients_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients_m.swift; sourceTree = "<group>"; };
-		35BB46F32B6F81B90053D054 /* shaby2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shaby2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 				1E9017462B6B971B009E770D /* ZoomableMapView2.swift */,
 				1E9017422B6B9629009E770D /* MyReceipe.swift */,
 				35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */,
-				35BB46F32B6F81B90053D054 /* shaby2.swift */,
 				35BB46EF2B6EE9170053D054 /* Region_m.swift */,
 				35BB46F12B6EE92B0053D054 /* Ingredients_m.swift */,
 				35BB46EB2B6EE5F70053D054 /* country.svg */,
@@ -178,7 +175,6 @@
 				1E9017472B6B971B009E770D /* ZoomableMapView2.swift in Sources */,
 				35BB46EE2B6EE8E70053D054 /* Recipe_m.swift in Sources */,
 				1445C6842B5FAE96000E0068 /* ShabyApp.swift in Sources */,
-				35BB46F42B6F81B90053D054 /* shaby2.swift in Sources */,
 				35BB46F22B6EE92B0053D054 /* Ingredients_m.swift in Sources */,
 				1E9017432B6B9629009E770D /* MyReceipe.swift in Sources */,
 			);
