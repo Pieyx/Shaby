@@ -10,13 +10,17 @@ import SwiftUI
 struct OnboardingView: View {
     @State private var logoScale: CGFloat = 1.0
     @State private var hasAnimated = false
+    @State private var isActive = false
     
     var body: some View {
         ZStack {
             Color("page") // Set the background color
                 .ignoresSafeArea()
             
-            VStack {
+            VStack {   if isActive {
+                onbording()
+            }else {
+                
                 Text("Zebdya")
                     .fontWeight(.bold)
                     .foregroundColor(Color("orange1"))
@@ -33,30 +37,41 @@ struct OnboardingView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 300 * logoScale, height: 300 * logoScale)
-                    .animation(Animation.easeInOut(duration: 1.0)) // Remove repeatForever(autoreverses: true)
-                    .onAppear() {
-                        if !hasAnimated {
-                            self.logoScale = 1.2
-                            hasAnimated = true
-                        }
-                    }
+                    .animation(Animation.easeInOut(duration: 1.0))
+            }
+            }
+        }
+//        .onAppear {
+//            animate = true
+//            
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+//                isActive = true
+//            } .navigationBarHidden(true)
+                
+                // Remove repeatForever(autoreverses: true)
+//                    .onAppear() {
+//                        if !hasAnimated {
+//                            self.logoScale = 1.2
+//                            hasAnimated = true
+//                        }
+//                    }
                 
                 Spacer()
                 
-                NavigationLink(destination: ContentView()) {
-                    Text("Get Cooking")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .foregroundColor(Color("page"))
-                        .padding()
-                        .background(RoundedRectangle(cornerRadius: 50)
-                            .foregroundColor(Color("orange1")))
-                        .frame(maxWidth: .infinity, alignment: .trailing)
-                        .padding(.bottom, 60
-                    )
-                        .padding(.trailing, 50)
-                }
-            }
+          //      NavigationLink(destination: ContentView()) {
+//                    Text("Get Cooking")
+//                        .font(.title2)
+//                        .fontWeight(.bold)
+//                        .foregroundColor(Color("page"))
+//                        .padding()
+//                        .background(RoundedRectangle(cornerRadius: 50)
+//                            .foregroundColor(Color("orange1")))
+//                        .frame(maxWidth: .infinity, alignment: .trailing)
+//                        .padding(.bottom, 60
+//                    )
+//                        .padding(.trailing, 50)
+                
+            
             .ignoresSafeArea()
         }
     }
@@ -69,6 +84,6 @@ struct OnboardingView: View {
                 OnboardingView() // Change Recipe() to OnboardingView()
             }
         }
-    }}
+    }
 
 #Preview{ OnboardingView()}

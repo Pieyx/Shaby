@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MyReceipe: View {
+  
     var body: some View {
         NavigationStack{
             ZStack{
@@ -16,8 +17,12 @@ struct MyReceipe: View {
                 Image("S")
                     .offset(x:-60,y: 70)
             }
-        } .navigationTitle("My Recepies")
-            .foregroundColor(.blue)
+            
+            
+        
+
+        
+        }.navigationTitle("My Receipe")
     }
 }
     

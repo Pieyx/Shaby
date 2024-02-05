@@ -15,6 +15,10 @@
 		1E90173B2B6B8F5A009E770D /* InteractiveMap in Frameworks */ = {isa = PBXBuildFile; productRef = 1E90173A2B6B8F5A009E770D /* InteractiveMap */; };
 		1E9017432B6B9629009E770D /* MyReceipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9017422B6B9629009E770D /* MyReceipe.swift */; };
 		1E9017472B6B971B009E770D /* ZoomableMapView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9017462B6B971B009E770D /* ZoomableMapView2.swift */; };
+		1EBE77482B70284300DF9365 /* onbording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE77472B70284300DF9365 /* onbording.swift */; };
+		1EBE774E2B70C30700DF9365 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE774D2B70C30700DF9365 /* Settings.swift */; };
+		1EBE77502B70C4E000DF9365 /* aboutTheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE774F2B70C4E000DF9365 /* aboutTheApp.swift */; };
+		1EBE77522B70C4FF00DF9365 /* privacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE77512B70C4FF00DF9365 /* privacyPolicy.swift */; };
 		35BB46EC2B6EE5F70053D054 /* country.svg in Resources */ = {isa = PBXBuildFile; fileRef = 35BB46EB2B6EE5F70053D054 /* country.svg */; };
 		35BB46EE2B6EE8E70053D054 /* Recipe_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */; };
 		35BB46F02B6EE9170053D054 /* Region_m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB46EF2B6EE9170053D054 /* Region_m.swift */; };
@@ -31,6 +35,10 @@
 		1445C6922B624222000E0068 /* Recipe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe1.swift; sourceTree = "<group>"; };
 		1E9017422B6B9629009E770D /* MyReceipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceipe.swift; sourceTree = "<group>"; };
 		1E9017462B6B971B009E770D /* ZoomableMapView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableMapView2.swift; sourceTree = "<group>"; };
+		1EBE77472B70284300DF9365 /* onbording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onbording.swift; sourceTree = "<group>"; };
+		1EBE774D2B70C30700DF9365 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1EBE774F2B70C4E000DF9365 /* aboutTheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutTheApp.swift; sourceTree = "<group>"; };
+		1EBE77512B70C4FF00DF9365 /* privacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyPolicy.swift; sourceTree = "<group>"; };
 		35BB46EB2B6EE5F70053D054 /* country.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.svg; sourceTree = "<group>"; };
 		35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_m.swift; sourceTree = "<group>"; };
 		35BB46EF2B6EE9170053D054 /* Region_m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region_m.swift; sourceTree = "<group>"; };
@@ -69,6 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				1445C6832B5FAE96000E0068 /* ShabyApp.swift */,
+				1EBE77472B70284300DF9365 /* onbording.swift */,
+				1EBE774D2B70C30700DF9365 /* Settings.swift */,
+				1EBE774F2B70C4E000DF9365 /* aboutTheApp.swift */,
+				1EBE77512B70C4FF00DF9365 /* privacyPolicy.swift */,
 				1E9017462B6B971B009E770D /* ZoomableMapView2.swift */,
 				1E9017422B6B9629009E770D /* MyReceipe.swift */,
 				35BB46ED2B6EE8E70053D054 /* Recipe_m.swift */,
@@ -170,10 +182,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1445C6932B624223000E0068 /* Recipe1.swift in Sources */,
+				1EBE77482B70284300DF9365 /* onbording.swift in Sources */,
+				1EBE77502B70C4E000DF9365 /* aboutTheApp.swift in Sources */,
 				35BB46F02B6EE9170053D054 /* Region_m.swift in Sources */,
 				1445C6862B5FAE96000E0068 /* ContentView.swift in Sources */,
+				1EBE774E2B70C30700DF9365 /* Settings.swift in Sources */,
 				1E9017472B6B971B009E770D /* ZoomableMapView2.swift in Sources */,
 				35BB46EE2B6EE8E70053D054 /* Recipe_m.swift in Sources */,
+				1EBE77522B70C4FF00DF9365 /* privacyPolicy.swift in Sources */,
 				1445C6842B5FAE96000E0068 /* ShabyApp.swift in Sources */,
 				35BB46F22B6EE92B0053D054 /* Ingredients_m.swift in Sources */,
 				1E9017432B6B9629009E770D /* MyReceipe.swift in Sources */,
@@ -306,8 +322,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shaby/Preview Content\"";
-				DEVELOPMENT_TEAM = Y45AGL4RGX;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = 3JDKZ46M9P;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -344,8 +360,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shaby/Preview Content\"";
-				DEVELOPMENT_TEAM = Y45AGL4RGX;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = 3JDKZ46M9P;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
