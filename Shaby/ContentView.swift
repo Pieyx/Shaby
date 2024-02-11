@@ -15,7 +15,7 @@ struct ContentView: View {
                 .tabItem { Image(systemName: "map")
                     Text("map")
                 }
-            Text("Stetings")
+          Settings()
                 .tabItem { Image(systemName: "gear")
                     Text("Setings")
                 }
